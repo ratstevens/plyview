@@ -2,19 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>SkyPapa2</title>
     <style>
         body {
             margin: 0;
             padding: 20px;
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-            margin-bottom: 30px;
+            background-color: #121212;
+            color: #e0e0e0;
         }
         .gallery {
             display: grid;
@@ -24,10 +20,10 @@
             margin: 0 auto;
         }
         .card {
-            background-color: white;
+            background-color: #1e1e1e;
             border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
             transition: transform 0.3s ease;
             cursor: pointer;
         }
@@ -36,11 +32,11 @@
         }
         .card-header {
             padding: 15px;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid #333;
         }
         .card-title {
             margin: 0;
-            color: #333;
+            color: #e0e0e0;
             font-size: 18px;
         }
         .card-iframe {
@@ -89,8 +85,6 @@
     </style>
 </head>
 <body>
-    <h1>SkyPapa2</h1>
-    
     <div class="gallery">
         <div class="card">
             <div class="card-header">
@@ -98,7 +92,7 @@
                     <h3 class="card-title">La Calma</h3>
                 </a>
             </div>
-            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=75124541" onclick="openViewer('https://superspl.at/s?id=75124541')"></iframe>
+            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=75124541" loading="lazy"></iframe>
         </div>
         
         <div class="card">
@@ -107,7 +101,7 @@
                     <h3 class="card-title">Casa DS</h3>
                 </a>
             </div>
-            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=4f24efdf" onclick="openViewer('https://superspl.at/s?id=4f24efdf')"></iframe>
+            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=4f24efdf" loading="lazy"></iframe>
         </div>
         
         <div class="card">
@@ -116,7 +110,7 @@
                     <h3 class="card-title">La Marea</h3>
                 </a>
             </div>
-            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=ef0b33ff" onclick="openViewer('https://superspl.at/s?id=ef0b33ff')"></iframe>
+            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=ef0b33ff" loading="lazy"></iframe>
         </div>
         
         <div class="card">
@@ -125,7 +119,7 @@
                     <h3 class="card-title">Elqui Ruinas</h3>
                 </a>
             </div>
-            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=08c69f74" onclick="openViewer('https://superspl.at/s?id=08c69f74')"></iframe>
+            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=08c69f74" loading="lazy"></iframe>
         </div>
         
         <div class="card">
@@ -134,7 +128,7 @@
                     <h3 class="card-title">El Convento</h3>
                 </a>
             </div>
-            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=3d844e70" onclick="openViewer('https://superspl.at/s?id=3d844e70')"></iframe>
+            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=3d844e70" loading="lazy"></iframe>
         </div>
         
         <div class="card">
@@ -143,7 +137,7 @@
                     <h3 class="card-title">Puente Diaguitas</h3>
                 </a>
             </div>
-            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=543d1936" onclick="openViewer('https://superspl.at/s?id=543d1936')"></iframe>
+            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=543d1936" loading="lazy"></iframe>
         </div>
         
         <div class="card">
@@ -152,7 +146,7 @@
                     <h3 class="card-title">Iglesia Montegrande</h3>
                 </a>
             </div>
-            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=059f32a1" onclick="openViewer('https://superspl.at/s?id=059f32a1')"></iframe>
+            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=059f32a1" loading="lazy"></iframe>
         </div>
         
         <div class="card">
@@ -161,7 +155,7 @@
                     <h3 class="card-title">Emplazamiento</h3>
                 </a>
             </div>
-            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=93e87e43" onclick="openViewer('https://superspl.at/s?id=93e87e43')"></iframe>
+            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=93e87e43" loading="lazy"></iframe>
         </div>
         
         <div class="card">
@@ -170,7 +164,7 @@
                     <h3 class="card-title">Iglesia Diaguitas</h3>
                 </a>
             </div>
-            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=ca183886" onclick="openViewer('https://superspl.at/s?id=ca183886')"></iframe>
+            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=ca183886" loading="lazy"></iframe>
         </div>
         
         <div class="card">
@@ -179,7 +173,7 @@
                     <h3 class="card-title">DJI Mavic 3</h3>
                 </a>
             </div>
-            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=95afc684" onclick="openViewer('https://superspl.at/s?id=95afc684')"></iframe>
+            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=95afc684" loading="lazy"></iframe>
         </div>
         
         <div class="card">
@@ -188,10 +182,8 @@
                     <h3 class="card-title">Cara VT</h3>
                 </a>
             </div>
-            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=38a3ee02" onclick="openViewer('https://superspl.at/s?id=38a3ee02')"></iframe>
+            <iframe class="card-iframe" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=38a3ee02" loading="lazy"></iframe>
         </div>
-        
-        <!-- Placeholder for future models -->
     </div>
     
     <div class="viewer-container" id="viewerContainer">
@@ -202,6 +194,17 @@
     </div>
 
     <script>
+        // Remove onclick attributes from iframes and handle them in JS
+        document.addEventListener('DOMContentLoaded', function() {
+            const iframes = document.querySelectorAll('.card-iframe');
+            iframes.forEach(iframe => {
+                iframe.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    openViewer(this.src);
+                });
+            });
+        });
+        
         function openViewer(url) {
             document.getElementById('viewer').src = url;
             document.getElementById('viewerContainer').style.display = 'flex';
